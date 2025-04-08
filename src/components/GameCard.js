@@ -1,5 +1,5 @@
 import React from 'react';
-import './GameCard.css';
+import '../CSS/GameCard.css';
 
 function GameCard({ title, image, description }) {
   return (

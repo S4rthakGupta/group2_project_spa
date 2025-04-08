@@ -1,12 +1,35 @@
+// Developer: Swapnilkumar Parmar
 import React from 'react';
+import '../CSS/About.css';
 
 function About() {
   return (
-    <div style={{ padding: '2rem', color: 'white' }}>
-      <h2>About Us</h2>
-      <p>
-        PS5 Game World is your go-to hub for discovering and exploring the latest and greatest PlayStation 5 games.
-        Our site is built with ReactJS as a modern Single Page Application (SPA) project.
+    <div className="about-page">
+      <h2 className="about-heading">About PS5 Game World</h2>
+
+      <div className="about-card">
+        <p>
+          PS5 Game World is your digital destination to explore the most iconic and groundbreaking titles available on the PlayStation 5.
+          Whether you're into action, racing, adventure, or story-driven games, our app highlights a wide variety of handpicked favorites to dive into.
+        </p>
+      </div>
+
+      <div className="about-card">
+        <p>
+          This application was built using <strong>ReactJS</strong> as a modern Single Page Application (SPA). It offers fast navigation, a responsive layout,
+          and dynamic rendering through React Router — all designed to give users a seamless browsing experience.
+        </p>
+      </div>
+
+      <div className="about-card">
+        <p>
+          From gaming newcomers to seasoned players, PS5 Game World is a place for every kind of gamer to find their next favorite title.
+          We aim to keep things stylish, informative, and intuitive — because discovering games should be just as fun as playing them.
+        </p>
+      </div>
+
+      <p className="about-footer">
+        Built by Group 2 — Conestoga College, 2025.
       </p>
     </div>
   );

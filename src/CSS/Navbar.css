@@ -7,7 +7,7 @@
 }
 
 .navbar h1 {
-  color: white;
+  color: rgb(222, 22, 22);
 }
 
 .navbar ul {
@@ -23,5 +23,11 @@
 }
 
 .navbar ul li a:hover {
-  color: #61dafb;
+  color: #fd6565;
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
 }
