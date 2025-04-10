@@ -3,6 +3,7 @@ import React from 'react';
 import GameCard from '../components/GameCard';
 import '../CSS/App.css';
 
+// Adding a JSON format for all the images of games which are coming from the public/images folder, title and description.
 const games = [
   { title: 'Astro Bot', image: '/images/astro-bot.jpg', description: 'Next-gen platforming adventure.' },
   { title: 'Call of Duty', image: '/images/call-of-duty.jpg', description: 'Cinematic FPS combat.' },
@@ -26,6 +27,7 @@ const games = [
   { title: 'Uncharted', image: '/images/uncharted.jpg', description: 'Treasure-hunting adventures of Nathan Drake.' },
 ];
 
+// Creating a Game function () so display all the data.
 function Game() {
   return (
     <div className="games-container">

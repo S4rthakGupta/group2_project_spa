@@ -1,4 +1,4 @@
-// Developer: Swapnilkumar Parmar
+// Developer: Swapnilkumar Parmar - 8942871
 import React from 'react';
 import '../CSS/About.css';
 
@@ -7,6 +7,7 @@ function About() {
     <div className="about-page">
       <h2 className="about-heading">About PS5 Game World</h2>
 
+      {/* Adding content in About Section for user to know more about our brand. */}
       <div className="about-card">
         <p>
           PS5 Game World is your digital destination to explore the most iconic and groundbreaking titles available on the PlayStation 5.
@@ -28,8 +29,9 @@ function About() {
         </p>
       </div>
 
+      {/* Adding Details of Group which created the website */}
       <p className="about-footer">
-        Built by Group 2 — Conestoga College, 2025.
+        Built by Group 2: Trends in Web Technology - Conestoga College, 2025.
       </p>
     </div>
   );

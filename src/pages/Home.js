@@ -3,14 +3,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../CSS/Home.css';
 
-
-
+// Created home section with descriptiveness.
 function Home() {
   return (
     <div className="home-container">
       <section className="hero-section">
         <h1>Welcome to PS5 Game World</h1>
         <p>Discover, explore, and experience the ultimate collection of PS5 games — all in one place.</p>
+        {/* Adding a button which redirects to about page if user wants to know about PS5 World. */}
         <Link to="/about" className="cta-button">Learn More</Link>
       </section>
 

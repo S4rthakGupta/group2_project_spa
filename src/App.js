@@ -8,6 +8,7 @@ import Games from './pages/Game';
 import About from './pages/About';
 import './CSS/App.css';
 
+// Adding all the routing paths and making them according to pages.
 function App() {
   return (
     <Router>

@@ -1,8 +1,77 @@
+/* Styled by: Swapnilkumar Parmar*/
 .footer {
-    background-color: #1e1e1e;
-    padding: 1rem;
-    text-align: center;
-    color: white;
-    margin-top: 2rem;
+  background-color: #1f1f1f; 
+  color: #f1f1f1;
+  padding: 2.5rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  border-top: 1px solid #333;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.footer-top h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: rgb(222, 22, 22);
+}
+
+.footer-top p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.link-section h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  color: #fff;
+}
+
+.link-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.link-section li {
+  margin: 0.5rem 0;
+  color: #ccc;
+}
+
+.link-section li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link-section li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  font-size: 0.85rem;
+  color: #999;
+  padding-top: 1.5rem;
+  border-top: 1px solid #333;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
   }
-  
+
+  .link-section {
+    text-align: center;
+  }
+}
